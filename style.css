@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+main{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     display: flex;
@@ -37,7 +37,7 @@ body{
 .content{
     width: 275px;
     height:390px;
-    padding: 24px;
+    padding: 26px;
     background-color: white;
 }
 
@@ -57,11 +57,12 @@ body{
     margin-bottom: 24px;
 }
 
-.content p {
+.content .p {
     font-size: 12px;
     color: hsl(158, 36%, 37%);
     font-weight: 500;
     line-height: 20px;
+    text-decoration: line-through;
 }
 
 .priceBox {
